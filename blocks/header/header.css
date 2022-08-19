@@ -1,0 +1,10 @@
+.header{
+  margin: 0 auto;
+  padding: 0;
+  display:flex;
+  justify-content: flex-end;
+  column-gap: 18px;
+  min-height: 42px;
+  max-height: 52px;
+  width: 1184px;
+}

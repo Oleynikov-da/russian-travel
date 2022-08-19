@@ -1,0 +1,12 @@
+.header__lang-link{
+
+  /*display: flex;
+
+  justify-content: flex-end;*/
+  margin-top: 46px;
+  color: #fff;
+  text-decoration: none;
+}
+.header__lang-link:hover{
+  text-decoration: underline;
+}
