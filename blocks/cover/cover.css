@@ -1,0 +1,17 @@
+.cover{
+  margin: 0 auto;
+  max-width: 1184px;
+  padding: 0;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.cover::after {
+  content: '';
+  width: 0;
+  height: 0;
+  padding-top: calc(740 / 1184 *100%);
+}

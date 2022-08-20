@@ -1,4 +1,4 @@
-.text{
+.place__main-text{
   display:flex;
   flex-direction: column;
   gap: 20px;
