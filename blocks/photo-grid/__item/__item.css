@@ -10,6 +10,8 @@
   .photo-grid__item {
     max-width: 300px;
     max-height: 225px;
+    width: 300px;
+    height: 225px;
   }
 }
 
@@ -17,13 +19,14 @@
   .photo-grid__item {
     max-width: 352px;
     max-height: 264px;
+    width: 352px;
+    height: 264px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__item {
-    max-width: 288px;
-    max-height: 216px;
+    width: 288px;
+    height: 216px;
   }
 }
-

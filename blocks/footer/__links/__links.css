@@ -1,13 +1,19 @@
 .footer__links{
+  margin: 0;
+  padding: 0;
   display: flex;
+  list-style: none;
   text-decoration: none;
+  justify-content: flex-start;
   color: #fff;
   gap: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .footer {
-    display: block;
-    gap: 32px;
+  .footer__links {
+    flex-direction:column;
+    width: 100%;
+    row-gap: 32px;
+    padding-bottom: 48px;
   }
 }
