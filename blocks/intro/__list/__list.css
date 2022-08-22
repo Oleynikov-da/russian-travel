@@ -6,3 +6,22 @@
   font-weight: 400px;
   font-size: 12px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    padding-left: 16px;
+  }
+}
+

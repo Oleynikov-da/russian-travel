@@ -10,3 +10,27 @@
   row-gap: 48px;
   column-gap: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 440px 456px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+    padding-bottom: 49px;
+  }
+}

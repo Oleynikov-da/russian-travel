@@ -8,3 +8,10 @@
   font-size: 72px;
   z-index: 2;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+      line-height: 35px;
+      font-size: 32px;
+  }
+}

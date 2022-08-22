@@ -4,5 +4,11 @@
   height: 52px;
   background-image: url('../../../images/header-logo.svg');
   background-size: cover;
-  margin-top: 28px;
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+    height: 42px;
+  }
 }
