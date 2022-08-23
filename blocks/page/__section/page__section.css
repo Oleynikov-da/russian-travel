@@ -12,12 +12,14 @@
 
 @media screen and (max-width: 768px) {
   .page__section{
+    max-width: 768px;
     padding: 20px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__section{
+    max-width: 320px;
     padding: 16px 16px;
   }
 }
