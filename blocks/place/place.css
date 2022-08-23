@@ -1,9 +1,10 @@
 .place{
   margin: 0 auto;
   padding: 0;
+  width: 984px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 92px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: max-content max-content;
@@ -14,6 +15,8 @@
 @media screen and (max-width: 1024px) {
   .place {
     padding: 0;
+    padding-bottom: 94px;
+    width: 928px;
     grid-template-columns: 440px 456px;
     column-gap: 32px;
   }
@@ -21,17 +24,18 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    width: 720px;
     grid-template-columns: 340px 352px;
     column-gap: 28px;
-    padding-bottom: 73px;
-    padding-left: 24px;
+    padding-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
+    width: 320px;
     display: block;
     padding: 0;
-    padding-bottom: 49px;
+    padding-bottom: 66px;
   }
 }
