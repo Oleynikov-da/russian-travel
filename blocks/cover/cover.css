@@ -15,21 +15,3 @@
   height: 0;
   padding-top: calc(740 / 1184 *100%);
 }
-/*
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    width: 320px;
-  }
-}*/
