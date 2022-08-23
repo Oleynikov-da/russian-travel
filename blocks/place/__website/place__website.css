@@ -1,5 +1,6 @@
 .place__website{
   display: flex;
+  row-gap: 12px;
   flex-direction: column;
   align-self: end;
 }
