@@ -4,11 +4,10 @@
   padding-top: 92px;
   padding-bottom: 92px;
   display: grid;
-  width: 92.5%;/*1184px;*/
+  width: 92.5%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 16px;
-
 }
 
 @media screen and (max-width: 1225px) {
