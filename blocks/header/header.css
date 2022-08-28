@@ -3,8 +3,6 @@
   padding: 28px 48px 0 48px;
   display:flex;
   justify-content: space-between;
-  min-height: 42px;
-  max-height: 52px;
   max-width: 1184px;
   align-items: flex-end;
 }
