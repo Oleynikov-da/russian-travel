@@ -1,6 +1,5 @@
 .lead__caption{
-  /*width: 984px;*/
-  margin: 0 100px;
+  margin: 0;
   padding-top: 8px;
   padding-bottom: 0;
   text-align: left;
@@ -11,23 +10,10 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__caption {
-    /*width: 928px;*/
-    margin: 0;
-  }
-}
 @media screen and (max-width: 1000px) {
   .lead__caption {
     width: 91%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__caption {
-    /*width: 100%;*/
-    margin: 0;
-    /*padding-left: 48px;*/
+    padding-left: 24px;
   }
 }
 
