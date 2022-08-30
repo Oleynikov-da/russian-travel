@@ -1,6 +1,6 @@
 .intro__title{
   margin: 0;
-  padding-top: 91px;
+  padding-top: 68px;
   padding-left: 100px;
   padding-bottom: 0;
   width: 690px;
@@ -13,12 +13,14 @@
 @media screen and (max-width: 1024px) {
   .intro__title {
     padding-left: 48px;
+    padding-top: 91px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
     padding-left: 24px;
+    padding-top: 88px;
   }
 }
 
@@ -32,7 +34,7 @@
 @media screen and (max-width: 320px) {
   .intro__title {
     padding-left: 16px;
-
     max-width: 288px;
+    padding-top: 64px;
   }
 }

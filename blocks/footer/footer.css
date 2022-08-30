@@ -10,11 +10,18 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .footer{
+    padding-top: 88px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer {
     margin: 0 118px 0 16px;
     display: block;
     width: 186px;
     row-gap: 32px;
+    padding-top: 64px;
   }
 }

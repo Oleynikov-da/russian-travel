@@ -1,12 +1,13 @@
 .lead__image{
-  width: 984px;
-  margin: 0 auto;
+  max-width: 100%;
+  display:block;
+  /*width: 984px;
+  margin: 0 auto;*/
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .lead__image {
-    width: 928px;
-    margin: 0 auto;
+    max-width: 928px;
   }
 }
 
@@ -20,4 +21,4 @@
   .lead__image {
     width: 100%;
   }
-}
+}*/

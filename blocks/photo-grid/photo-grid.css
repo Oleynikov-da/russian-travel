@@ -4,7 +4,8 @@
   padding-top: 92px;
   padding-bottom: 92px;
   display: grid;
-  width: 92.5%;
+  max-width: 1184px;
+  width: 94%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 16px;
