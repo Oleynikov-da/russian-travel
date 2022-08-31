@@ -28,3 +28,10 @@
       padding-bottom: 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+      max-width: 320px;
+      width: 100%;
+  }
+}
